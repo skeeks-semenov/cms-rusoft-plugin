@@ -1,0 +1,26 @@
+{
+    "name": "rusoft/cms-rusoft-plugin",
+    "description": "Небольшой плагин для SkeekS CMS",
+    "keywords": ["module", "cms", "skeeks", "sx", "app", "yii2"],
+    "homepage": "http://skeeks.com/",
+    "type": "yii2-extension",
+    "license": "GPL-3.0+",
+    "support": {
+        "issues": "http://cms.skeeks.com"
+    },
+    "authors": [
+        {
+            "name": "Semenov Alexander",
+            "email": "semenov@skeeks.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "skeeks/cms": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "rusoft\\cms\\plugins\\": ""
+        }
+    }
+}
