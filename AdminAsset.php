@@ -16,7 +16,7 @@ use yii\web\AssetBundle;
  */
 class AdminAsset extends AppAsset
 {
-    public $sourcePath = '@vendor/rusoft/cms-rusoft-plugin/assets';
+    public $sourcePath = '@vendor/skeeks/cms-rusoft-plugin/assets';
 
     public $css = [
         'admin.css',
