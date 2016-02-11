@@ -14,7 +14,7 @@ use yii\web\AssetBundle;
  * Class AppAsset
  * @package frontend\assets
  */
-class AdminAsset extends AppAsset
+class AdminAsset extends \skeeks\cms\base\AssetBundle
 {
     public $sourcePath = '@vendor/skeeks/cms-rusoft-plugin/assets';
 
